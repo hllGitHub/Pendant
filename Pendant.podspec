@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/liangliang.hu/Pendant'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liangliang.hu' => 'liangliang.hu@liulishuo.com' }
+  s.author           = { 'liangliang.hu' => 'hllfj922@gmail.com' }
   s.source           = { :git => 'https://github.com/liangliang.hu/Pendant.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

@@ -22,7 +22,7 @@ pod 'Pendant'
 
 ## Author
 
-liangliang.hu, liangliang.hu@liulishuo.com
+liangliang.hu, hllfj922@gmail.com
 
 ## License
 

@@ -1,0 +1,6 @@
+framework module Pendant {
+  umbrella header "Pendant-umbrella.h"
+
+  export *
+  module * { export * }
+}
