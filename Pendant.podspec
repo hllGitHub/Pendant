@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Pendant'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Pendant.'
+  s.summary          = 'Development toolset.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '用 Swift 编写的开发工具集，包含了一些常用类和方法'
 
-  s.homepage         = 'https://github.com/liangliang.hu/Pendant'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/hllGitHub/Pendant'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liangliang.hu' => 'hllfj922@gmail.com' }
-  s.source           = { :git => 'https://github.com/liangliang.hu/Pendant.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/hllGitHub/Pendant.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Pendant/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Pendant' => ['Pendant/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
